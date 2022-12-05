@@ -1,3 +1,23 @@
 body {
-
+  background-color: #24b36f;
+  
+  
+  
 }
+
+h1 {
+  color: #b4b3ff;
+  text-align: center;
+  font-family: Courier New;
+}
+
+img {
+  width: 400px;
+  border: solid #b4b3ff 5px;
+}
+
+img:hover {
+  width: 400px;
+  border: dashed gold 6px;
+}
+
