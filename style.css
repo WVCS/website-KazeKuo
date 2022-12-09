@@ -1,9 +1,43 @@
 body {
   background-color: #24b36f;
   
-  
-  
 }
+
+nav {
+  list-style-type: none;
+  background-color: #b4b3ff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: solid gray 3px;
+ 
+}
+
+li {
+  display: inline;
+  padding: 15px;
+  float: right;
+  border-left: 2px solid gray;
+}
+
+li:hover {
+  background-color: gold
+}
+
+li:first-child {
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+.active {
+  background-color: #8280ff; 
+} 
 
 h1 {
   color: #b4b3ff;
@@ -20,4 +54,3 @@ img:hover {
   width: 400px;
   border: dashed gold 6px;
 }
-
