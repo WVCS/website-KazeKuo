@@ -29,15 +29,17 @@ li:first-child {
   border-right: none;
 }
 
+.active {
+  background-color: #9b9aff; 
+} 
+
 a {
   text-decoration: none;
   font-size: 30px;
   color: white;
 }
 
-.active {
-  background-color: #8280ff; 
-} 
+
 
 h1 {
   color: #b4b3ff;
